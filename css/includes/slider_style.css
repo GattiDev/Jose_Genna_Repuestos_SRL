@@ -1,0 +1,13 @@
+#thingSlider .marcas{
+    width: 2000px;
+    height: 45px;
+    background-image: url(../../materials/marcas/Marcas-Slider.jpg);
+    background-repeat: repeat;
+    animation: slider 60s infinite linear;
+}
+
+@keyframes slider{
+    to{
+        background-position: 2000px;
+    }
+}

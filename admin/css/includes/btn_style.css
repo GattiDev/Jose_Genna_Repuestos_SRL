@@ -1,0 +1,35 @@
+#main_content .btn{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 6px;
+    margin-bottom: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: var(--color--01);
+    background-color: var(--color--01);
+    box-shadow: 5px 5px rgba(49, 49, 49, 0.5);
+    transition: 3s;
+}
+
+#main_content .btn:hover{
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-color: var(--color--02);
+    box-shadow: inset 3px 5px 5px 1px rgba(66, 66, 66, 0.5);
+    transition: 2s;
+}
+
+.icon{
+    color: var(--color--03);
+    font-size: 20px;
+}
+
+#main_content .btnadmin, #main_content .btnlicen{
+    font-family: var(--font-family--SubTitulo-Sw);
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: var(--color--02);
+}
+

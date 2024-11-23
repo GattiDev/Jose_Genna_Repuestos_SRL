@@ -1,0 +1,262 @@
+/*############################################ Import ############################################*/
+@import url(main_root.css);
+
+#modal_setting,
+#modal_settingUP,
+#modal_administrator,
+#modal_administratorUP{
+    display: none;
+    height: auto;
+    top:65px;
+    padding-top: 76px;
+	overflow:hidden;	
+}
+
+.modal{
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:1050;
+	display:none;
+	overflow:hidden;
+	outline:0;
+}
+
+.modal.fade .modal-dialog{
+	transition:-webkit-transform .3s ease-out;
+	transition:transform .3s ease-out;
+	transition:transform .3s ease-out,
+	-webkit-transform .3s ease-out;
+	-webkit-transform:translate(0,-25%);
+	transform:translate(0,-25%);
+}
+
+.modal-dialog{
+	position:relative;
+	width:auto;
+	margin:10px;
+	pointer-events:none;
+}
+
+.modal-content{
+	position:relative;
+	display:-ms-flexbox;
+	display:flex;
+	-ms-flex-direction:column;
+	flex-direction:column;
+	pointer-events:auto;
+	background-color: var(--color--02);
+	background-clip:padding-box;
+	outline:0;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+
+.modal-header{
+	display:-ms-flexbox;
+	display:flex;
+	height: 45px;
+	-ms-flex-align:start;
+	align-items:flex-start;
+	-ms-flex-pack:justify;
+	justify-content:space-between;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background: var(--color--03);
+	position: relative;
+	top: -1px;
+}
+
+.modal-header .close{
+	line-height: 45px;
+	margin-right: 6px;
+}
+
+.modal-header h5{
+	line-height: 55px;
+	font-family: var(--font-family--Title);
+	font-size: 20px;
+	letter-spacing: 2px;
+    text-shadow: 3px 0px 9px var(--color--03);
+	margin-left: 10px;
+	color: var(--color--02);
+}
+
+.modal-body{
+	position:relative;
+	width: 90%;
+	margin: auto;
+	flex:1 1 auto;
+	padding: 15px;
+	text-align: center;
+}
+
+.modal-body label{
+	display: block;
+  	margin-bottom: -10px;
+  	font-family: var(--font-family--SubTitle);
+  	font-size: 20px;
+  	color: var(--color--01);
+  	font-weight: bold;
+}
+
+.modal-body input,
+.modal-body select{
+	width: 430px;
+    height: 35px;
+    margin-bottom: 10px;
+    font-family: var(--font-family--Text);
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    box-shadow: 4px 4px 6px 0px var(--color--05);
+	color: var(--color--05);
+}
+
+.modal-body .form-control:focus{
+	outline: none;
+}
+
+.modal-footer{
+	display:flex;
+	height: 45px;
+	padding-right: 10px;
+	align-items:center;
+	justify-content:flex-end;
+	background-color: var(--color--06);
+	position: relative;
+	top: 1px;
+}
+
+.modal-footer>:not(:first-child){
+	margin-left:.25rem;
+}
+.modal-footer>:not(:last-child){
+	margin-right:.25rem;
+}
+
+@media (min-width:576px){
+	.modal-dialog{
+		max-width:500px;
+		margin:30px auto;
+	}
+}
+@media (min-width:992px){
+	.modal-lg{
+		max-width:800px;
+	}
+}
+
+/*==================== BOTONES ====================*/
+
+/*----> Close - Exit */
+.close{
+	float:right;
+	font-family: var(--font-family--Butoon);
+	font-size:1.5rem;
+	font-weight:700;
+	line-height:1;
+	color: var(--color--02);
+	text-shadow:0 1px 0 var(--color--04);
+	opacity:.5;
+}
+
+.close:focus, .close:hover{
+	color: var(--color--07);
+	text-decoration:none;
+	opacity:.75;
+}
+
+button.close{
+	padding:0;
+	background:0 0;
+	border:0;
+	-webkit-appearance:none;
+}
+
+/*---> License */
+.bt-license{
+	display: block;
+	position: relative;
+	width: 35px;
+	height: 35px;
+	margin-top: -45px;
+	margin-right: 6px;
+	float: right;
+}
+
+.bt-license .btn_icon{
+	width: 90%;
+	height: 90%;
+	margin-top: 3px;
+	font-size: 24px;
+	background-color: transparent;
+	border: transparent;
+	cursor: pointer;
+}
+
+.bt-license .btn_icon:hover{
+	color: var(--color--01)
+}
+
+/*--> Submit */
+.btn_OP_sub{
+	display:inline-block;
+	position: relative;
+	width: 50%;
+	text-align:center;
+	padding: 15px;
+	top:5px;
+	border: 2px solid transparent;
+	font-family: var(--font-family--Butoon);
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 3px;
+	letter-spacing: 2px;
+	cursor: pointer;
+	transition: all 0.35s ease;
+}
+
+.btn-submit{
+	color: var(--color--02);
+	background-color: var(--color--01);
+	border-color: var(--color--01);
+}
+
+.btn-submit:hover{
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	color: var(--color--01);
+	background-color: transparent;
+	border-color: var(--color--01);
+}
+
+/*--> Close - Canselar */
+.btn_OP_close{
+	display:inline-block;
+	text-align:center;
+	padding: 9px;
+	border: transparent;
+	font-family: var(--font-family--Butoon);
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 3px;
+	letter-spacing: 2px;
+	cursor: pointer;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	transition:background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-close{
+	color: var(--color--02);
+	background-color: var(--color--03);
+	border-color: var(--color--04);
+}
+.btn-close:hover{
+	color: var(--color--07);
+	background-color:transparent;
+	border-color: transparent;
+}

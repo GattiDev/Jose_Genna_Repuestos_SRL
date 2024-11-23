@@ -1,0 +1,149 @@
+/*############################################ Import ############################################*/
+/* Fronts */
+@import url('../../css/includes/fronts.css');
+
+*{
+  display: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-body: #282828; 
+  --color_00: #ccc;
+  --color_01: #fff;
+  --color_02: #3282b8; 
+
+  --font--Merriweather-B-: 'MerriweatherBold';
+  --font--Merriweather-Bl-: 'MerriweatherBlack';
+  --font--Montserrat-B-: 'MontserratBold';
+  
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--color-body);
+  gap: 2rem;
+}
+
+/**Logo**/
+#box_body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+
+  padding-top: 4px;
+  padding-left: 4px;
+  padding-right: 1px;
+  padding-bottom: 4px;
+}
+
+.avatar{
+  display: flex;
+  position: relative; 
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar_box{
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0px 7px 7px -6px var(--color_00);
+  background-color: transparent;
+}
+
+.avatar:active .avatar_box{
+  box-shadow: none;
+}
+
+#avatar_img{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#avatar_img img {
+  height: auto;
+  width: auto;
+  max-height: 450px;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+#avatar_img .img1 img{
+  height: auto;
+  width: auto;
+  max-height: 70px;
+  max-width: 500px;
+}
+
+
+/*##### Font ####*/
+#Formbox{
+  height: 100%;
+}
+
+#boxInputName{
+  display: block;
+  transform: translateY(-210px);
+  opacity: 0;
+}
+
+#boxInputPass{
+  display: block;
+  transform: translateY(210px);
+  opacity: 0;
+}
+
+#boxInputName .InputName,
+#boxInputPass .InputPass{
+  position: relative;
+  width: 300px;
+  margin-left: -300px;
+}
+
+.name,
+.pass{
+  width: 100%;
+  padding: 0px;
+  border: none;
+  border-bottom: 2px solid var(--color_01);
+  outline: none;
+  background: transparent;
+  color: var(--color_02);
+  font-family: var(--font--Montserrat-B-);
+  font-size: 1.8rem;
+}
+
+.name-label,
+.pass-label{
+  position: absolute;
+  left: 0;
+  position: 10px 5px;
+  color: var(--color_01);
+  font-family: var(--font--Merriweather-B-);
+  font-size: 22px;
+  letter-spacing: 2px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.name:valid ~ label,
+.name:focus ~ label,
+.pass:valid ~ label,
+.pass:focus ~ label{
+  transform: translateY(-1.5rem);
+  color: var(--color_02);
+  font-family: var(--font--Merriweather-Bl-);
+  letter-spacing: 2px;
+  font-size: 18px;
+}

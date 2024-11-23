@@ -1,0 +1,31 @@
+#main_content .btn{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 6px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: var(--color--01);
+    background-color: var(--color--01);
+}
+
+#main_content .btn:hover{
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-color: var(--color--02);
+    transition: 1s;
+}
+
+.icon{
+    color: var(--color--03);
+    font-size: 20px;
+}
+
+#main_content .btnadmin, #main_content .btnlicen{
+    font-family: var(--font-family--Butoon);
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: var(--color--02);
+}
+

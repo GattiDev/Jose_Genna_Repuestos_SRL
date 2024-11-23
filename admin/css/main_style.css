@@ -1,0 +1,60 @@
+/*############################################ Import ############################################*/
+@import url("includes/head_style.css");
+@import url("includes/menu_style.css");
+@import url("includes/footer_style.css");
+/*------> VIEW <------*/ 
+@import url("addProduct_style.css");
+
+#thingBox{
+  background-color: #ffffff;
+  border-left: 2px solid  rgba(32, 32, 32, 0.7);
+  border-right: 2px solid  rgba(32, 32, 32, 0.7);
+  box-shadow: 0px 0px 8px rgba(50, 130, 184, 0.7) , 0px 0px 8px rgba(50, 130, 184, 0.7) , 0px 0px 8px rgba(50, 130, 184, 0.7), 0px 0px 8px rgba(50, 130, 184, 0.7);
+}
+
+/*------------>           TITULOS */
+#thingBrands h2,
+#thingHistoria h2,
+#thingFromPedido h2,
+#thingContacto h2,
+#thingFromAdmin h2,
+#thingFromVentas h2{
+    display: block;
+    letter-spacing: 2px;
+    border-bottom-right-radius: 25px;
+    color: #323232;
+    border-right: 2px solid #3282b8;
+    border-bottom: 2px solid #3282b8;
+    box-shadow: 1px 2px 0px rgba(50, 130, 184, 0.7) , 1px 2px 0px rgba(50, 130, 184, 0.7) , 2px 1px 0px rgba(50, 130, 184, 0.7), 3px 3px 0px rgba(50, 130, 184, 0.7);
+    margin: 0px auto;
+    margin-bottom: 25px;
+}
+
+#thingBrands h2{
+  width: 535px;
+}
+
+#thingHistoria h2{
+  width: 160px;
+}
+
+#thingFromPedido h2{
+  width: 420px;
+}
+
+#thingContacto h2{
+  width: 420px;
+}
+
+#thingFromAdmin h2{
+  width: 290px;
+}
+
+#thingFromVentas h2{
+  width: 150px;
+}
+
+/*--------->          VIEW */ 
+#thingView{
+  padding: 10px;
+}

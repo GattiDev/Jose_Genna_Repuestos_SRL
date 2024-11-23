@@ -1,0 +1,85 @@
+#thingContacto{
+    display: block;
+    
+}
+
+#thingContacto p {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.box_sendeAdmin{
+    display: none;
+}
+
+.box_sendeVent{
+    display: none;
+}
+
+/*########################################################################################*/
+        /*############################ ADMINISTRACION Y VENTAS #######################################*/
+/*########################################################################################*/
+
+/*------ INICIO --- Formulario ------*/
+.formulario{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+
+.formulario label{
+    display: block;
+    margin-bottom: -20px;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.formulario .nombre,
+.formulario .apellido,
+.formulario .cuit,
+.formulario .email,
+.formulario .localidad,
+.formulario .telefono,
+.formulario .asunto,
+.formulario .transporte{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    box-shadow: 4px 4px 6px 0px #cacacc;
+}
+
+/*------ INICIO --- Mensaje ------*/
+.textarea-msj{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.textarea-msj p{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.textarea-msj textarea{
+    resize: none;
+}
+
+.textarea-msj .mesaje{  
+    width: 100%;
+    height: 280px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: none;
+    box-shadow: 4px 4px 6px 0px #cacacc;
+}

@@ -1,0 +1,25 @@
+@import url("fronts.css");
+
+:root{
+    --color--01: #5B94CF;
+    --color--02: #ffffff;
+    --color--03: #282828;
+    --color--04: #222222;
+    --color--05: #3a6486;
+    --color--06: #000000;
+    --color--07: #FF0000;
+
+    --dt-padding:  12px;
+	--dt-padding-s:  6px;
+	--dt-padding-xs: 2px;
+
+	--dt-border-radius:  3px;
+        
+    --font-family--Title: 'Merriweather-Black';
+    --font-family--SubTitle: 'Merriweather-Bold';
+
+    --font-family--Butoon:'Montserrat-Bold';
+    --font-family--Text:'Montserrat-Regular';
+
+    --font-family--Footer:'Merriweather-Regular'; 
+} 

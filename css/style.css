@@ -1,0 +1,268 @@
+/*############################################ Import ############################################*/
+@import url("includes/main_style.css");
+@import url("includes/menu_style.css");
+@import url("includes/slider_style.css");
+@import url("includes/whatsapp_style.css");
+
+#thingBody .local{  
+    width: 400px;
+    height: 460px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#thingBody img{
+    width: 100%;
+    height: 100%;
+}
+
+#thingBody .txt{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family--4);
+    color: #333;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    border-left: 2px solid #5B94CF;
+}
+
+#thingBisBody .efecto{
+    padding: 20px;
+    font-family: var(--font-family--2);
+    letter-spacing: 5px;
+    color: #333;
+    text-shadow: 0px 7px 5px #00000042, 0px 4px 1px #726e6e9c;
+}
+
+#thingBody .efecto{
+    padding: 20px;
+    font-family: var(--font-family--2);
+    letter-spacing: 5px;
+    color: #333;
+    text-shadow: 0px 7px 5px #00000042, 0px 4px 1px #726e6e9c;
+}
+
+#thingAviso .efecto{
+    padding: 20px;
+    font-family: var(--font-family--2);
+    letter-spacing: 5px;
+    color: #333;
+    text-shadow: 0px 7px 5px #00000042, 0px 4px 1px #726e6e9c;
+} 
+
+#thingAviso img{
+    width: 50%;
+    border-radius: 50px;
+    padding-bottom: 10px;
+}
+
+/*============ Marcas Oficiales ============*/
+#caja  h4{
+    display: block;
+    top:-10px;
+    font-size: 18px;
+    letter-spacing: 4px;
+    position: relative;
+    font-family: var(--font-family--4);
+    font-weight: bold;
+    text-align: center;
+}
+  
+/*----- IMAGEN -----*/
+#cajaPadre  a img{
+    margin-left: -6px;
+}
+  
+#cajaPadre  img{
+    margin-left: -4px;
+}
+
+
+/*---> Thing Data <---*/
+.ubicacion{
+    padding-top: 30px;
+    font-family: var(--font-family--5);
+    letter-spacing: 2px;
+    color: #333;
+}
+
+.horario{
+    font-family: var(--font-family--5);
+    letter-spacing: 3px;
+    color: #333;
+}
+/*------> Productos <-------*/
+#thingProduct{
+    display: inline-block;
+    width: 23%;
+    margin: 10px;
+}
+
+#thingProduct .card{
+    width: 15rem;
+    border: 1px solid #333;
+}
+
+#thingProduct .card-body h4{
+    font-size: 21px;
+    font-family: var(--font-family--4);
+    letter-spacing: 2px;
+    color: #333;
+}
+
+#thingProduct .card-body p{
+    font-size: 17px;
+    font-family: var(--font-family--5);
+    letter-spacing: 2px;
+    color: #333;
+}
+
+/*------> Pedido <-------*/
+#thingBisBody p{
+    font-family: var(--font-family--5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+#thingBisBody label{
+    margin-bottom: 5px;
+    font-family: var(--font-family--6);
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+#thingBisBody input{
+    margin-bottom: 20px;
+    font-family: var(--font-family--5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #333;
+    border: none;
+    box-shadow: 4px 4px 6px 0px #5B94CF;
+    background-color: #ddd;
+}
+
+#thingBisBody textarea{
+    width: 50%;
+    margin-bottom: 20px;
+    font-family: var(--font-family--5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #333;
+    border: none;
+    box-shadow: 4px 4px 6px 0px #5B94CF;
+    background-color: #ddd;
+}
+
+#thingBisBody input:focus,
+#thingBisBody textarea:focus{
+    border: 2px solid #5B94CF;
+    outline: 0 none;
+}
+
+#thingBisBody span{
+    color: red;
+}
+
+#enviar {
+    margin-bottom: 10px;
+    font-family: var(--font-family--2);
+    font-size: 18px;
+}
+
+#enviar .btn-outline-primary{
+    letter-spacing: 3px;
+}
+
+/*------> Listas <-------*/
+#box{
+    width: 100%;
+}
+
+#box p{
+    font-size: 18px;
+    font-family: var(--font-family--5);
+    letter-spacing: 2px;
+}
+
+.boxLista{
+    display: inline-block;
+    width: 280px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    border-color: #323232;
+}
+
+.boxLista h4{
+    font-size: 22px;
+    font-family: var(--font-family--4);
+    letter-spacing: 2px
+}
+
+.boxLista p{
+    font-size: 20px;
+    font-family: var(--font-family--5);
+    letter-spacing: 2px;
+}
+
+/*------> Historia <-------*/
+#thingBisBody .local{  
+    width: 700px;
+    border-radius: 25px;
+}
+
+#thingBisBody img{
+    width: 80%;
+}
+
+#histText p{
+    font-family: var(--font-family--4);
+    font-size: 19px;
+    color: #333;
+}
+
+/*------> Contacto <-------*/
+.btnContacto{
+    width: 17% !important;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+/********************************************************/
+/*---> Adaptación para los celulares <---*/
+@media screen and (min-width: 360px) and (max-width: 411px) {
+    /*------> Local <-------*/
+    #thingBody .local{  
+        width: 350px;
+    }
+      
+    /*------> Producto <-------*/
+    #thingProduct {
+        display: block;
+        width: 100%;
+    }
+    #thingProduct .card{
+        margin: auto;
+    }
+
+    /*------> Historia <-------*/
+    #thingBisBody .local{  
+        width: 350px;
+    }
+
+
+    /*------> Contacto <-------*/
+    .btnContacto{
+        width: 45% !important;
+    }
+
+    #thingBisBody textarea {
+        width: 90%;
+        height: 100px;
+    }
+}

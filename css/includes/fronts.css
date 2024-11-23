@@ -1,0 +1,51 @@
+/*---> Stop <---*/
+@font-face{
+    font-family: "Stop";
+    src:url(../../bookstores/fonts/AkhbarMT-Stop/Stop.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*---> Poppins <---*/
+@font-face{
+    font-family: "PoppinsBlack";
+    src:url(../../bookstores/fonts/Poppins-RobotoSerif/Poppins-Black.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "PoppinsBold";
+    src:url(../../bookstores/fonts/Poppins-RobotoSerif/Poppins-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "PoppinsRegular";
+    src:url(../../bookstores/fonts/Poppins-RobotoSerif/Poppins-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*---> RobotoSerif <---*/
+@font-face{
+    font-family: "RobotoSerifMedium";
+    src:url(../../bookstores/fonts/Poppins-RobotoSerif/RobotoSerif-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "RobotoSerifRegular";
+    src:url(../../bookstores/fonts/Poppins-RobotoSerif/RobotoSerif-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "RobotoSerifSemiBold";
+    src:url(../../bookstores/fonts/Poppins-RobotoSerif/RobotoSerif-SemiBold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,28 @@
+/*---> Rubik <---*/
+@font-face{
+    font-family: "Rubik-Bold";
+    src:url(../../bookstores/fonts/Rubik/Rubik-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Rubik-Medium";
+    src:url(../../bookstores/fonts/Rubik/Rubik-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Rubik-Regular";
+    src:url(../../bookstores/fonts/Rubik/Rubik-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Rubik-Black";
+    src:url(../../bookstores/fonts/Rubik/Rubik-Black.ttf);
+    font-weight: normal;
+    font-style: normal;
+}

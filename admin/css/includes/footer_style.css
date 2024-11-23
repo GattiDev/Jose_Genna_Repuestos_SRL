@@ -1,0 +1,25 @@
+#thingFooter{
+    padding-top: 10px;
+    background-color: #000000;
+}
+
+#thingFooter h6{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#thingFooter h5{
+    font-size: 16px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+#thingFooter h5 a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#thingFooter h5 a:hover{
+    color: #5B94CF;
+}

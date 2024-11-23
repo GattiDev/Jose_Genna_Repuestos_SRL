@@ -1,0 +1,43 @@
+/*---> Merriweather | Titulos <---*/
+@font-face{
+    font-family: "Merriweather-Black";
+    src:url(../bookstores/fonts/Merriweather-Montserrat/Merriweather-Black.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Merriweather-Bold";
+    src:url(../bookstores/fonts/Merriweather-Montserrat/Merriweather-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Merriweather-Regular";
+    src:url(../bookstores/fonts/Merriweather-Montserrat/Merriweather-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*---> Montserrat | Textos <---*/
+@font-face{
+    font-family: "Montserrat-Black";
+    src:url(../bookstores/fonts/Merriweather-Montserrat/Montserrat-Black.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Montserrat-Bold";
+    src:url(../bookstores/fonts/Merriweather-Montserrat/Montserrat-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Montserrat-Regular";
+    src:url(../bookstores/fonts/Merriweather-Montserrat/Montserrat-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}

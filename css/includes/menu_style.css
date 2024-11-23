@@ -1,0 +1,31 @@
+#thingMenu{
+    padding: 5px;
+    border-top: 2px solid #f7f3f39c;
+    border-left: 2px solid #f7f3f39c;
+    border-right: 2px solid #f7f3f39c;
+    background-color: #21618cb4;
+}
+
+#thingMenu .navbar{
+    background-color: #21618C !important;
+}
+
+#thingMenu .logo img{
+    width: 97%;
+}
+
+#thingMenu .navbar-nav a{
+    font-family: var(--font-family--6);
+    font-size: 17px;
+    color: #000000;
+    letter-spacing: 2px;
+}
+
+#thingMenu .navbar-nav .active{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#thingMenu .navbar-nav a:hover{
+    color: #333333;
+}

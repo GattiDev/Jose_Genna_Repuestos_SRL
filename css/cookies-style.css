@@ -1,0 +1,199 @@
+/*############################################ Import ############################################*/
+@import url('includes/cookies-fonts.css');
+ 
+:root{
+ 
+    --font-family--Titulo: 'Rubik-Black';
+    --font-family--SubTitulo: 'Rubik-Bold';
+    --font-family--Menu: 'Rubik-Medium';
+    --font-family--Text: 'Rubik-Regular';
+} 
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #273746;
+}
+
+p {
+	margin-bottom: 20px;
+	line-height: 150%;
+}
+
+main {
+	margin: 20px auto;
+	max-width: 1000px;
+	background: #fff;
+	min-height: 80vh;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.aviso-cookies {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    width: 1330px;
+    margin-left: 10px;
+    z-index: 100; 
+    background-color: #ddd;  
+}
+
+.aviso-cookies.activo {
+	display: block;
+}
+
+.aviso-cookies .parrafo {
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: var(--font-family--Text);
+	font-size: 15px;
+	font-weight: bolder;
+    letter-spacing: 2px;
+    color: #282828;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+.aviso-cookies .enlace {
+	display: inline-block;
+	color: #595959;
+	text-decoration: none;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+.aviso-cookies .enlace:hover {
+	text-decoration: underline;
+	color: #282828;
+}
+
+.aviso-cookies .boton {
+	display: inline-block;
+	background: #595959;
+	border: none;
+	color: #fff;
+	text-align: center;
+	padding: 8px 8px;
+	font-weight: bolder;
+	cursor: pointer;
+	transition: .3s ease all;
+	border-radius: 8px;
+	font-size: 15px;
+	letter-spacing: 3px;
+}
+
+.aviso-cookies .boton:hover {
+	background: #000;
+}
+
+.fondo-aviso-cookies {
+    display: none;
+	background: rgba(0,0,0,.20);
+	position: fixed;
+	z-index: 99;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	transition: background .6s;
+}
+
+.fondo-aviso-cookies.activo {
+	display: block;
+}
+
+
+/* Politica de Cookies */
+#politcookies{
+	display: block;
+	width: auto;
+	height: 40px;
+}
+
+#politcookies h1{
+	float: left;
+	font-family: var(--font-family--Titulo);
+	font-weight: bold;
+	letter-spacing: 6px;
+	color: #282828;
+}
+
+#politcookies a,
+#politcookies .inactive,
+#politcookies p{
+	display: block;
+	float: right;
+	line-height: 40px;
+	font-family: var(--font-family--Menu);
+	font-size: 16px;
+	letter-spacing: 4px;
+	text-shadow: 1px 1px 2px #fff;
+	text-decoration: none;
+	color: #323232;
+}
+
+#politcookies a:hover{
+	color: #282828;
+	text-decoration: underline;
+}
+
+#politcookies .inactive:hover{
+	text-decoration: none;
+	color: #000;
+}
+
+#politcookies p{
+	display: block;
+	float: right;
+	line-height: 40px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+#cookies-info h2{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: var(--font-family--SubTitulo);
+	font-weight: bold;
+	letter-spacing: 5px;
+	color: #282828;
+}
+
+#cookies-info ul {
+	margin-left: 42px;
+    list-style-type: square;
+}
+
+#cookies-info ul li {
+	margin-bottom: 20px;
+	font-family: var(--font-family--Text);
+	color: #000;
+	font-size: 17px;
+	letter-spacing: 3px;
+}
+
+#cookies-info p{
+	font-family: var(--font-family--Text);
+	font-size: 17px;
+	letter-spacing: 3px;
+}
+
+/********************************************************/
+/*---> Adaptación para los celulares <---*/
+@media screen and (min-width: 360px) and (max-width: 411px) {
+   .aviso-cookies {
+        width: 373px;
+    
+    }
+}

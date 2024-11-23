@@ -1,0 +1,54 @@
+/*############################################ Import ############################################*/
+/*@import url(../../css/includes/main-style.css);*/
+@import url(includes/btn_style.css);
+
+/* Table */
+@import url("tb.css");
+@import url("btn.css");
+@import url("modal_style.css");
+@import url("modalSec_style.css");
+
+@import url("gallery_style.css");
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*---> BODY    */
+body{
+    display: block;
+    width: 95%;
+    margin: auto;
+    background-color: #323232;
+}
+
+/*---> HEAD CONTENT  */
+#head_content{
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+#head_content h1{
+    font-family: var(--font-family--Title-JG);
+}
+
+#head_content h2{
+    font-family: var(--font-family--SubTitle-JG);
+}
+
+/*---> MAIN CONTENT  */
+#main_content{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+    background-color: tomato;
+}
+
+#main_content nav{
+    padding-bottom: 5px;
+    background-color: yellowgreen;
+}
+

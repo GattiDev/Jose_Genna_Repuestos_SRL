@@ -1,0 +1,82 @@
+/*############################################ Import ############################################*/
+@import url("fronts.css");
+
+:root{
+       
+    --font-family--1: 'PoppinsBlack'; /*-->  */
+    --font-family--2: 'PoppinsBold'; /*-->  Titulo - Botones*/
+    --font-family--3: 'PoppinsRegular'; /*---> Footer */
+    --font-family--4: 'RobotoSerifMedium'; /*--->  SubTitulo*/
+    --font-family--5: 'RobotoSerifRegular'; /*---> Text */
+    --font-family--6: 'RobotoSerifSemiBold'; /*---> Menú*/
+} 
+ 
+body{
+    background-color: #273746 !important;
+}
+
+#thingBody{
+    padding: 5px;
+    border-top: 2px solid #f7f3f36c;
+    border-left: 2px solid #f7f3f39c;
+    border-right: 2px solid #f7f3f39c;
+    background-color: #ddd;
+}
+
+#thingBisBody{
+    padding: 5px;
+    border-left: 2px solid #f7f3f39c;
+    border-right: 2px solid #f7f3f39c;
+    background-color: #ddd;
+}
+
+#thingData{
+    padding: 5px;
+    border-left: 2px solid #f7f3f39c;
+    border-right: 2px solid #f7f3f39c;
+    background-color: #ddd;
+}
+
+#thingData .horario{
+    border-left: 2px solid #5B94CF;
+}
+
+#thingAviso{
+    padding: 5px;
+    border-left: 2px solid #f7f3f39c;
+    border-right: 2px solid #f7f3f39c;
+    background-color: #ddd;
+}
+
+#thingSlider{
+    width: 100%;
+    padding-top: 20px;
+    border-left: 2px solid #f7f3f39c;
+    border-right: 2px solid #f7f3f39c;
+    background-color: #ddd;
+    overflow: hidden;
+}
+
+#thingFooter{
+    padding: 5px;
+    border-left: 2px solid #f7f3f39c;
+    border-right: 2px solid #f7f3f39c;
+    border-bottom: 2px solid #f7f3f39c;
+    background-color: black;
+}
+
+#thingFooter .jg,
+#thingFooter .dev{
+    padding-top: 5px;
+    font-family: var(--font-family--3);
+    color: #273746;
+}
+
+#thingFooter .dev a{
+    text-decoration: none;
+    color: #273746;
+}
+
+#thingFooter .dev a:hover{
+    color: #5B94CF;
+}

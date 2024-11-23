@@ -1,0 +1,64 @@
+/*########################################################################################*/
+        /*############################ Agregar Productos #######################################*/
+/*########################################################################################*/
+.marca, 
+.modal-body,
+.subirImg{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.marca label,
+.modal-body label,
+.subirImg label{
+    margin-left: 10px;
+    margin-right: 2px;
+    margin-top: 5px;
+    font-family: "RobotoBoldItalic";
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.marca .selector,
+.modal-body .selector,
+.subirImg .selector{
+    width: 235px;
+    height: 35px;
+    margin-bottom: 15px;
+    font-family: "RobotoLight";
+    font-size: 18px;
+    border: none;
+    box-shadow: 4px 4px 6px 0px #cacacc;
+}
+
+/*************************************************** BTN-SUBMIT **************************************************************/
+.btn-submit{
+    text-align: center;
+    width: 220px;
+    height: 50px;
+    margin: auto;
+    margin-top: 5px;
+    color: white;
+    background: linear-gradient(to bottom, #3eb8e5 0%, #0f7ab8 100%);
+    border: 1px solid #555;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-family: "RobotoLight";
+    font-weight: lighter;
+    transition: all 300ms;
+    background-color: aquamarine;
+}
+
+.btn-submit:hover{
+    background: linear-gradient(to bottom, #0f7ab8 0%, #3eb8e5 100%);
+    border: 5px solid #0f7ab8;
+    border-radius: 240px;
+    box-shadow: 0px 0px 10px #5b5b5f;
+    color: #fff;
+}
